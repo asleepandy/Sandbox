@@ -22,7 +22,7 @@ def fullJustify(words, maxWidth):
     line = []
     words_len = len(words)
     word_count = 0
-    for i in range(0, words_len):
+    for i in range(words_len):
         word_count += len(words[i])
         n = word_count - maxWidth
         if n > 0:
